@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+     <meta charset="utf-8">
+     <title>LIVECHAT</title>
+     <link rel="stylesheet" href="style.css" media="screen">
+     <!-- <link rel="stylesheet" href="style2.css" media="handheld"> -->
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="/socket.io/socket.io.js"></script>
+  <h1>LIVECHAT</h1>
+ </head>
+<body class="css-selector">
+
+  <div class="wrapper">
+      <div class="chatwrapper">
+          <div class="namebox">
+              <p> I am <input autocomplete="off" type="text" id="name" placeholder="..."></p>
+              </div>
+                <div class="chatbox">
+                  <ul id="chat">
+                    <li
+                      <p><span class="sender">Elena: </span> Welcome to the LIVECHAT! Feel free to comment on the stream or talk to others here :D</p>
+                    </li>
+                  </ul>
+                </div>
+              <div class="messagebox">
+                <input autocomplete="off"  type="text" id="message" placeholder="say something...">
+                <button id="send">Send</button>
+              </div>
+      </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
